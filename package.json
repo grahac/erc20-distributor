@@ -1,0 +1,17 @@
+{
+  "name": "erc20-distributor",
+  "version": "1.0.0",
+  "description": "Can distribute ERC20 to many people via a CSV file (say for reimbursements or token distributions).  ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "web3": "^1.7.3"
+  }
+}
