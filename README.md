@@ -7,7 +7,8 @@ Basically you create a wallet (using wallet-generator) and use that as your send
 This was made to work with Polygon but could likely work for any chain if you update the RPC and token ID.
 
 ## Caveats
-* JS is not my primary language - so this is a bit of a hack and I am sure could be made to look much prettier.
+* JS is not my primary language - so this is a bit of a hack and I am sure could be made to look much prettier. 
+* This has not been fully tested so USE AT YOUR OWN RISK. Please test before using.
 * I am sure there are bugs so please feel free to identify and PR any fixes (or ask to be a contributor!)
 
 ### To use it:
