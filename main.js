@@ -80,10 +80,10 @@ async function sendOneTransaction(web3, contract, toAddress, raw_amount, transCo
 
 async function sendAllTransactions(payments) {
 
-    const WETH = '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619';
+    const TOKEN_ADDRESS = '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619';
 
     const web3 = new Web3('https://polygon-rpc.com/');
-    let contract = new web3.eth.Contract(minABI, WETH);
+    let contract = new web3.eth.Contract(minABI, TOKEN_ADDRESS);
 
     const privateKey = process.env.PRIVATE_KEY
 
