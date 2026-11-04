@@ -13,6 +13,7 @@ This was made to work with Polygon but could likely work for any chain if you up
 
 ### To use it:
  1. Install Node
+    Then run `npm ci` to install the versions in `package-lock.json`. Dependencies are no longer vendored in this repository. With Node 18 or newer, run `npm test` for offline wallet, signing, transfer encoding, and CSV checks; these tests do not send transactions.
  2. Run ```node wallet_generator.js``` .  This will create an ETH wallet for you. You will be using this Wallet to make all the transactions. Save both the public and private keys. Do not share the private key. 
  3. Add the appropriate tokens to this wallet that you will be distributing.  If you are sending via Polygon you want both MATIC and your token (i.e. WETH) in this wallet. (Assume 0.005-0.01 MATIC per payment you make fwiw).   
  4. Update the ```payments.csv``` file. DO NOT CHANGE THE HEADERS. This is where you put payments.  One row per address and include the wallet address and the amount (in this case it is in WETH)
